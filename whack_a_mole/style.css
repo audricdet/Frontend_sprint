@@ -1,0 +1,29 @@
+.flex {
+    display : flex
+}
+
+.align-center {
+    align-items: center;
+}
+
+.mole-hole {
+    border : 1px solid black;
+    height : 150px;
+    width : 150px;
+    border-radius: 75px;
+}
+
+.container {
+    justify-content: center;
+}
+
+.score {
+    border : 1px solid black; 
+    margin-top: 75px;
+    height : 75px;
+    width : 600px;
+}
+
+#pScore {
+    font-size: larger;
+}
