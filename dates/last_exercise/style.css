@@ -1,0 +1,74 @@
+.flex {
+    display : flex
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendar {
+    height : 300px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: white;
+    border : 1px solid black;
+}
+
+.day {
+    background-color: rgb(190, 52, 52);
+    color: white;
+    font-size: xx-large;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.date-of-today {
+    color: rgb(162, 158, 158);
+    font-size: 75px;
+    margin-top: 20px;
+}
+
+.month {
+    color: rgb(121, 113, 113);
+    font-size: 75px;
+}
+
+.year {
+    background-color: rgb(190, 52, 52);
+    color: white;
+    font-size: xx-large;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 32px;
+}
+
+.time {
+    margin-left: 50px;
+}
+
+.hours {
+    font-size: 100px;
+    color: rgb(78, 76, 76);
+}
+
+.minutes {
+    font-size: 100px;
+    color: rgb(78, 76, 76);
+}
+
+.seconds {
+    font-size: 70px;   
+    color: rgb(78, 76, 76);
+    padding-top: 28px;
+}
